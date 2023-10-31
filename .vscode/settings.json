@@ -1,0 +1,23 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.associations": {
+        "atomic": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "random": "cpp",
+        "iostream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "stdexcept": "cpp",
+        "vector": "cpp"
+    }
+}

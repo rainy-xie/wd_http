@@ -1,0 +1,20 @@
+g++ -c main.cc -o main.o
+main.cc: In function ‘int main()’:
+main.cc:22:94: error: call of overloaded ‘GET(const char [6], std::_Bind_helper<false, void (Test::*)(const wfrest::HttpReq*, wfrest::HttpResp*), Test*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)’ is ambiguous
+     server.GET("/test",std::bind(&Test::test,&t1,std::placeholders::_1,std::placeholders::_2));
+                                                                                              ^
+In file included from main.cc:5:0:
+/usr/local/include/wfrest/HttpServer.h:41:10: note: candidate: void wfrest::HttpServer::GET(const char*, const Handler&)
+     void GET(const char *route, const Handler &handler)
+          ^~~
+/usr/local/include/wfrest/HttpServer.h:133:10: note: candidate: void wfrest::HttpServer::GET(const char*, const Handler&, const AP& ...) [with AP = {}; wfrest::Handler = std::function<void(const wfrest::HttpReq*, wfrest::HttpResp*)>]
+     void GET(const char *route, const Handler &handler, const AP &... ap)
+          ^~~
+/usr/local/include/wfrest/HttpServer.h:232:10: note: candidate: void wfrest::HttpServer::GET(const char*, const SeriesHandler&)
+     void GET(const char *route, const SeriesHandler &handler)
+          ^~~
+/usr/local/include/wfrest/HttpServer.h:323:10: note: candidate: void wfrest::HttpServer::GET(const char*, const SeriesHandler&, const AP& ...) [with AP = {}; wfrest::SeriesHandler = std::function<void(const wfrest::HttpReq*, wfrest::HttpResp*, SeriesWork*)>]
+     void GET(const char *route, const SeriesHandler &handler, const AP &... ap)
+          ^~~
+Makefile:4: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
