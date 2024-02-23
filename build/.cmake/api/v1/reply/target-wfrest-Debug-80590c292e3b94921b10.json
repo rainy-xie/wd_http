@@ -1,0 +1,283 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/xie/github-wsl/wd_http/wfrest-main/_lib/libwfrest.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_dependencies",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "LINK_HEADERS::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "base::@da17c8cd1000ca7e4b79"
+		},
+		{
+			"id" : "util::@6bc12a100e338ba65b7b"
+		},
+		{
+			"id" : "core::@0618756b1ff51bca1a0e"
+		}
+	],
+	"id" : "wfrest::@145eef247bfb46b6828c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "wfrest",
+	"nameOnDisk" : "libwfrest.a",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/base/CMakeFiles/base.dir/base64.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/base/CMakeFiles/base.dir/ErrorCode.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/base/CMakeFiles/base.dir/Compress.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/base/CMakeFiles/base.dir/SysInfo.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/base/CMakeFiles/base.dir/Timestamp.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/base/CMakeFiles/base.dir/Json.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/util/CMakeFiles/util.dir/FileUtil.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/util/CMakeFiles/util.dir/MysqlUtil.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/util/CMakeFiles/util.dir/PathUtil.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/util/CMakeFiles/util.dir/StrUtil.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/util/CMakeFiles/util.dir/UriUtil.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/util/CMakeFiles/util.dir/CodeUtil.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/BluePrint.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/HttpContent.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/HttpFile.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/HttpServerTask.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/RouteTable.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/Aspect.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/HttpDef.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/HttpServer.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/Router.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/HttpCookie.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/HttpMsg.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/xie/github-wsl/wd_http/build/src/core/CMakeFiles/core.dir/MultiPartParser.c.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

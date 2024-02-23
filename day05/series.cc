@@ -1,17 +1,20 @@
 #include "linuxheader.h"
 #include <workflow/WFFacilities.h>
 static WFFacilities::WaitGroup waitGroup(1);
+
 void sigHandler(int num)
 {
     waitGroup.done();
     fprintf(stderr, "wait group is done\n");
 }
+
 void seriesCallback(const SeriesWork *series)
 {
     fprintf(stderr, "series callback , free pkey\n");
     std::string *pkey = static_cast<std::string *>(series->get_context());
     delete pkey;
 }
+
 void callback(WFRedisTask *redisTask)
 {
     protocol::RedisRequest *req = redisTask->get_req();
@@ -19,6 +22,7 @@ void callback(WFRedisTask *redisTask)
     int state = redisTask->get_state();
     int error = redisTask->get_error();
     protocol::RedisValue value; // value对象专门用来存储redis任务的结果
+
     switch (state)
     {
     case WFT_STATE_SYS_ERROR:
@@ -36,7 +40,6 @@ void callback(WFRedisTask *redisTask)
         }
         break;
     }
-
     if (state != WFT_STATE_SUCCESS)
     {
         fprintf(stderr, "Failed\n");

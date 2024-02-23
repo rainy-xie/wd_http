@@ -1,0 +1,269 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./BluePrint.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./HttpContent.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./HttpFile.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./HttpServerTask.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./RouteTable.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./Aspect.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./HttpDef.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./HttpServer.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./Router.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./HttpCookie.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./HttpMsg.cc.o"
+		},
+		{
+			"path" : "src/core/CMakeFiles/core.dir/./MultiPartParser.c.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_dependencies",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/core/CMakeLists.txt",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/xie/github-wsl/wd_http/wfrest-main/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/xie/github-wsl/wd_http/build/src/core"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -Wall -fPIC -pipe -std=gnu90 -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/xie/github-wsl/wd_http/wfrest-main/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/xie/github-wsl/wd_http/build/src/core"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "LINK_HEADERS::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "core::@0618756b1ff51bca1a0e",
+	"name" : "core",
+	"paths" : 
+	{
+		"build" : "src/core",
+		"source" : "src/core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/BluePrint.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/HttpContent.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/HttpFile.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/HttpServerTask.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/RouteTable.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/Aspect.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/HttpDef.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/HttpServer.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/Router.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/HttpCookie.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/HttpMsg.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/core/MultiPartParser.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -197,7 +197,7 @@ cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
 ----------------------------------------
 checking for crypt()
 
-/usr/bin/ld: /tmp/ccqnVmyA.o: in function `main':
+/usr/bin/ld: /tmp/ccKJycBm.o: in function `main':
 autotest.c:(.text+0x1d): undefined reference to `crypt'
 collect2: error: ld returned 1 exit status
 ----------
@@ -619,7 +619,7 @@ objs/autotest.c: In function 'main':
 objs/autotest.c:7:5: warning: implicit declaration of function 'setproctitle' [-Wimplicit-function-declaration]
     7 |     setproctitle("test");;
       |     ^~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccPgjcCp.o: in function `main':
+/usr/bin/ld: /tmp/ccQDWxEh.o: in function `main':
 autotest.c:(.text+0x18): undefined reference to `setproctitle'
 collect2: error: ld returned 1 exit status
 ----------

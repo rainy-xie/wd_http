@@ -1,0 +1,110 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "lib/cmake/wfrest",
+			"paths" : 
+			[
+				{
+					"from" : "/home/xie/github-wsl/wd_http/build/config.toinstall.cmake",
+					"to" : "wfrest-config.cmake"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "include/wfrest",
+			"paths" : 
+			[
+				"src/base/Copyable.h",
+				"src/base/ErrorCode.h",
+				"src/base/json_fwd.hpp",
+				"src/base/json.hpp",
+				"src/base/Macro.h",
+				"src/base/Noncopyable.h",
+				"src/base/StringPiece.h",
+				"src/base/Timestamp.h",
+				"src/base/base64.h",
+				"src/base/Compress.h",
+				"src/base/SysInfo.h",
+				"src/base/Json.h",
+				"src/core/HttpContent.h",
+				"src/core/HttpCookie.h",
+				"src/core/HttpDef.h",
+				"src/core/HttpFile.h",
+				"src/core/HttpMsg.h",
+				"src/core/HttpServer.h",
+				"src/core/HttpServerTask.h",
+				"src/core/MultiPartParser.h",
+				"src/core/BluePrint.h",
+				"src/core/BluePrint.inl",
+				"src/core/Router.h",
+				"src/core/RouteTable.h",
+				"src/core/VerbHandler.h",
+				"src/core/AopUtil.h",
+				"src/core/Aspect.h",
+				"src/util/FileUtil.h",
+				"src/util/MysqlUtil.h",
+				"src/util/PathUtil.h",
+				"src/util/StrUtil.h",
+				"src/util/UriUtil.h",
+				"src/util/CodeUtil.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "devel",
+			"destination" : "share/doc/wfrest-0.9.2",
+			"paths" : 
+			[
+				"README.md"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

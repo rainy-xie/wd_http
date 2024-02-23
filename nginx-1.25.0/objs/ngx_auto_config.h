@@ -1,7 +1,7 @@
-#define NGX_CONFIGURE " --prefix=/usr/local/nginx"
+#define NGX_CONFIGURE ""
 
 #ifndef NGX_COMPILER
-#define NGX_COMPILER  "gcc 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04.1) "
+#define NGX_COMPILER  "gcc 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) "
 #endif
 
 

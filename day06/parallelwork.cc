@@ -62,7 +62,7 @@ int main(){
         context->url = std::move(url);
         // 为每个任务创建一个序列
         auto series = Workflow::create_series_work(httpTask,nullptr);
-        // 把存储响应内容的指针 拷贝到序列的context当中。
+        // 把存储响应内容的指针 拷贝到序列的context当中
         series->set_context(context);
         //把序列加入到并行任务中
         // add_series
@@ -70,7 +70,6 @@ int main(){
     }
     
     Workflow::start_series_work(pwork,nullptr);
-    
 
     //启动并行任务
     waitGroup.wait();

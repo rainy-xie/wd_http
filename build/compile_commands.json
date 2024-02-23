@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/base  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/base/CMakeFiles/base.dir/base64.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/base/base64.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/base/base64.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/base  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/base/CMakeFiles/base.dir/ErrorCode.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/base/ErrorCode.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/base/ErrorCode.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/base  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/base/CMakeFiles/base.dir/Compress.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/base/Compress.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/base/Compress.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/base  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/base/CMakeFiles/base.dir/SysInfo.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/base/SysInfo.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/base/SysInfo.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/base  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/base/CMakeFiles/base.dir/Timestamp.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/base/Timestamp.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/base/Timestamp.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/base  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/base/CMakeFiles/base.dir/Json.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/base/Json.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/base/Json.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/util  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/util/CMakeFiles/util.dir/FileUtil.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/util/FileUtil.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/util/FileUtil.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/util  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/util/CMakeFiles/util.dir/MysqlUtil.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/util/MysqlUtil.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/util/MysqlUtil.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/util  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/util/CMakeFiles/util.dir/PathUtil.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/util/PathUtil.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/util/PathUtil.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/util  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/util/CMakeFiles/util.dir/StrUtil.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/util/StrUtil.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/util/StrUtil.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/util  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/util/CMakeFiles/util.dir/UriUtil.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/util/UriUtil.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/util/UriUtil.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/util  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/util/CMakeFiles/util.dir/CodeUtil.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/util/CodeUtil.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/util/CodeUtil.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/BluePrint.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/BluePrint.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/BluePrint.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/HttpContent.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpContent.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpContent.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/HttpFile.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpFile.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpFile.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/HttpServerTask.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpServerTask.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpServerTask.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/RouteTable.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/RouteTable.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/RouteTable.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/Aspect.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/Aspect.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/Aspect.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/HttpDef.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpDef.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpDef.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/HttpServer.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpServer.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpServer.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/Router.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/Router.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/Router.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/HttpCookie.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpCookie.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpCookie.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/g++ -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core  -Wall -fPIC -pipe -std=c++11 -fno-exceptions -g -o src/core/CMakeFiles/core.dir/HttpMsg.cc.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpMsg.cc",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/HttpMsg.cc"
+},
+{
+  "directory": "/home/xie/github-wsl/wd_http/build",
+  "command": "/usr/bin/gcc -I/home/xie/github-wsl/wd_http/wfrest-main/src -I/home/xie/github-wsl/wd_http/wfrest-main/_include/wfrest -I/home/xie/github-wsl/wd_http/build/src/core    -Wall -fPIC -pipe -std=gnu90 -g -o src/core/CMakeFiles/core.dir/MultiPartParser.c.o -c /home/xie/github-wsl/wd_http/wfrest-main/src/core/MultiPartParser.c",
+  "file": "/home/xie/github-wsl/wd_http/wfrest-main/src/core/MultiPartParser.c"
+}
+]
